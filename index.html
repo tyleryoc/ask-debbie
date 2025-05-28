@@ -13,7 +13,7 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #cfc9bc;
             height: 100vh;
             display: flex;
             justify-content: center;
@@ -115,7 +115,8 @@
             background: #007AFF;
             border: none;
             color: white;
-            font-size: 18px;
+            font-size: 20px;
+            font-weight: 900;
             cursor: pointer;
             display: flex;
             align-items: center;
@@ -184,13 +185,13 @@
 <body>
     <div class="chat-container">
         <div class="chat-header">
-            <h1>💬 Ask Debbie!</h1>
-            <p>Your friendly neighborhood "no" bot</p>
+            <h1>Ask Debbie!</h1>
+            <p>Your Friendly Financial Assistant</p>
         </div>
         
         <div class="messages-container" id="messages">
             <div class="message bot-message">
-                Hi there! I'm Debbie! 👋 Feel free to ask me anything... though I should mention I'm quite good at saying no! 😊
+                Hi there! I'm Debbie! 👋 Feel free to ask me anything! 😊
             </div>
         </div>
         
@@ -228,7 +229,19 @@
             "I'm flattered you asked, but I'll have to pass! No! 💫",
             "That's so considerate, but no thank you, dear! 🌟",
             "How lovely of you to ask! Still going to be a no though! 🌼",
-            "You're too kind, but I'm afraid it's a no from me! 💗"
+            "You're too kind, but I'm afraid it's a no from me! 💗",
+            "That's not in this quarter's budget, I'm afraid! Ask again later! 💼",
+            "Let's revisit this in the next fiscal year, shall we? 📊",
+            "I'll need to see a business case for that. Unfortunately, it's a no! 📈",
+            "That request didn't make it past the budget committee! Try again next quarter! 💰",
+            "Hmm, the numbers don't add up on that one. Ask me again later! 🧮",
+            "That's outside our current spending parameters. Maybe next fiscal year! 📋",
+            "I'll have to run that by the CFO... and they said no! Ask again later! 🏦",
+            "That expenditure isn't approved for this budget cycle! Try next year! 💳",
+            "The board needs more time to consider that. Ask again in Q3! 📅",
+            "That's not a priority expense right now. Let's discuss next fiscal year! 💸",
+            "Our cash flow projections don't support that request. Try again later! 💹",
+            "That would exceed our quarterly allocation. Ask me next budget period! 🗂️"
         ];
 
         const messagesContainer = document.getElementById('messages');
